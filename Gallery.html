@@ -7,17 +7,26 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <title>Document</title>
 </head>
+  <style>
+  .imag {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    }
 
+  .hovers {
+    height: 100px;
+    width: 100px;
+  }
+  </style>
 <body>
 
 
     <header class="text-gray-700 body-font">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-            <svg xmlns="https://github.com/timberman69/timberman69.github.io/blob/master/AdobeLightroom/DSC_0290%20(1).jpg?raw=true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg>
-            <span class="ml-3 text-xl">Timberman's Gallery</span>
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="index.html">
+            <img src="https://github.com/timberman69/timberman69.github.io/blob/master/AdobeLightroom/DSC_0290%20(1).jpg?raw=true" alt="Avatar" class="imag">
+        <p class="ml-3 text-xl">Timberman's Gallery</p>
           </a>
           <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
             <a href="/index.html"class="mr-5 hover:text-gray-900">Home</a>
@@ -46,7 +55,7 @@
           <div class="flex flex-wrap md:-m-2 -m-1">
             <div class="flex flex-wrap w-1/2">
               <div class="md:p-2 p-1 w-1/2">
-                <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://github.com/timberman69/timberman69.github.io/blob/master/AdobeLightroom/DSC_0032.jpg?raw=true">
+                <img alt="gallery" class="w-full object-cover h-full object-center block hover:hovers" src="https://github.com/timberman69/timberman69.github.io/blob/master/AdobeLightroom/DSC_0032.jpg?raw=true">
               </div>
               <div class="md:p-2 p-1 w-1/2">
                 <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://github.com/timberman69/timberman69.github.io/blob/master/AdobeLightroom/IMG_20200511_055441.jpg?raw=true">
@@ -60,7 +69,7 @@
                 <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://github.com/timberman69/timberman69.github.io/blob/master/AdobeLightroom/IMG_20200322_182052.jpg?raw=true">
               </div>
               <div class="md:p-2 p-1 w-1/4">
-                <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://github.com/timberman69/timberman69.github.io/blob/master/AdobeLightroom/DSC_0261.jpg?raw=true">
+                <img alt="gallery" class="w-full object-cover h-full object-center block " src="https://github.com/timberman69/timberman69.github.io/blob/master/AdobeLightroom/DSC_0261.jpg?raw=true">
               </div>
               <div class="md:p-2 p-1 w-1/2">
                 <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://github.com/timberman69/timberman69.github.io/blob/master/AdobeLightroom/DSC_0047%20(1).jpg?raw=true">
